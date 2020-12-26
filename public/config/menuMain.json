@@ -1,0 +1,68 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/introduccion.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "Gestion_de_informacion_de_las_inspecciones_de_calidad",
+    "title": "1. Gestión de información de las inspecciones de calidad",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/1-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "Gestion_de_informacion_de_las_inspecciones_de_calidad",
+        "title": "1.1. Herramientas TIC para registro de información",
+        "anchor": "11"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "Gestion_de_informacion_de_las_inspecciones_de_calidad",
+        "title": "1.2. Sistema de información de calidad",
+        "anchor": "12"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "Gestion_de_informacion_de_las_inspecciones_de_calidad",
+        "title": "1.2.1. Reporte de fallas y errores",
+        "anchor": "13"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "Gestion_de_informacion_de_las_inspecciones_de_calidad",
+        "title": "1.2.2. Recopilar datos de inspecciones",
+        "anchor": "14"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "Gestion_de_informacion_de_las_inspecciones_de_calidad",
+        "title": "1.2.3. Compartir información",
+        "anchor": "15"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "Gestion_de_informacion_de_las_inspecciones_de_calidad",
+        "title": "1.2.4. Disponibilidad para consultas",
+        "anchor": "16"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "Gestion_de_informacion_de_las_inspecciones_de_calidad",
+        "title": "  1.2.5. Seguimiento y monitoreo de información",
+        "anchor": "17"
+      }         
+    ]   
+  }
+]
