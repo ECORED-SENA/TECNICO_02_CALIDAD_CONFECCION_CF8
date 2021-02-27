@@ -252,6 +252,7 @@ ol.lista > li.mas:before {
 .border-bottom-orange {
     border-bottom: 5px solid $dark-orange;    
 }
+
 .sub-ecored {
     h2,h3 {
         overflow: hidden;
@@ -287,77 +288,78 @@ ol.lista > li.mas:before {
         }
     }
 } 
+
 .list {
     width: 100%;
     display: flex !important;
     &__item {
-    &__bulletNumber {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    margin-right: 1rem;
-    text-align: center;
-    border-radius: 50%;
-    background-color: #2B4E6A;
-    top: -4px;
-    span {
-    color: white;
-    font-weight: 700;
-    font-size: small;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    }
-    }
-    &__number {
-    position: relative;
-    margin-right: 1rem;
-    span {
-    color: #2B4E6A;
-    font-size: 15pt;
-    font-weight: 700;
-    line-height: 1.2;
-    }
-    }
-    &__icon {
-    position: relative;
-    width: 15px;
-    top: -20%;
-    margin-right: 0.65rem;
-    img {
-    width: 15px;
-    vertical-align: middle;
-    }
-    }
-    }
-    &__txt {
-    p:first-child,
-    h3:first-child {
-    margin-top: -4px;
-    }
-    }
-    }
-    .img-a {
-        display: block;
-        margin: auto;
-      }
-    .caja-azul{
-        background: rgb(255,255,255);
-        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(111,216,216,1) 100%);
-        border-radius: 0px 0px 15px 15px;
-        margin-top: -50px;
-        position: relative;
-        p{
-            padding: 10px;
+        &__bulletNumber {
+            position: relative;
+            width: 30px;
+            height: 30px;
+            margin-right: 1rem;
+            text-align: center;
+            border-radius: 50%;
+            background-color: #2B4E6A;
+            top: -4px;
+            span {
+                color: white;
+                font-weight: 700;
+                font-size: small;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+        &__number {
+            position: relative;
+            margin-right: 1rem;
+            span {
+                color: #2B4E6A;
+                font-size: 15pt;
+                font-weight: 700;
+                line-height: 1.2;
+            }
+        }
+        &__icon {
+            position: relative;
+            width: 15px;
+            top: -6px;
+            margin-right: 0.65rem;
+            img {
+                width: 15px;
+                vertical-align: middle;
+            }
         }
     }
-    .color-azul{
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(247,250,250,1) 33%, rgba(225,245,245,1) 72%, rgba(186,245,245,1) 100%);
+    &__txt {
+        p:first-child,
+        h3:first-child {
+            margin-top: -4px;
+        }
     }
-    .color-verde{
-        background: rgb(255,255,255);
-        background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(244,249,241,1) 33%, rgba(211,240,190,1) 72%, rgba(193,240,159,1) 100%);
-    }
+}
 
+.img-a {
+    display: block;
+    margin: auto;
+}
+
+.caja-azul{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(111,216,216,1) 100%);
+    border-radius: 0px 0px 15px 15px;
+    margin-top: -50px;
+    position: relative;
+    padding: 20px;
+}
+
+.color-azul{
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(247,250,250,1) 33%, rgba(225,245,245,1) 72%, rgba(186,245,245,1) 100%);
+    border-radius: 10px;
+}
+
+.color-verde{
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(244,249,241,1) 33%, rgba(211,240,190,1) 72%, rgba(193,240,159,1) 100%);
+    border-radius: 10px;
+}
